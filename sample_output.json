@@ -1,0 +1,56 @@
+{
+  "date": "2026-04-30",
+  "factors": [
+    {
+      "factor_id": "FED_RATE_20260430",
+      "category": "货币政策",
+      "entity": "美联储",
+      "event": "维持基准利率不变",
+      "details": {
+        "rate_range": "4.25%-4.50%",
+        "stance": "鹰派偏谨慎"
+      },
+      "market_impact": "中性偏鹰",
+      "sentiment_score": -0.3,
+      "source_quote": "通胀回落进程有所停滞,我们将保持耐心"
+    },
+    {
+      "factor_id": "US_NFP_20260430",
+      "category": "经济数据",
+      "entity": "美国劳工部",
+      "event": "4月非农就业不及预期",
+      "details": {
+        "value_wan": 17.5,
+        "expected_wan": 24.0,
+        "unemployment_rate": 4.2
+      },
+      "market_impact": "利多债券",
+      "sentiment_score": 0.4,
+      "source_quote": "美国4月非农就业新增17.5万人,低于市场预期的24万人,失业率小幅上升至4.2%"
+    },
+    {
+      "factor_id": "PBOC_RRR_20260430",
+      "category": "流动性",
+      "entity": "中国央行",
+      "event": "宣布下调存款准备金率0.5个百分点",
+      "details": {
+        "effective_date": "2026-05-15",
+        "cut_bp": 50,
+        "liquidity_release_yi": 10000
+      },
+      "market_impact": "利多权益",
+      "sentiment_score": 0.5,
+      "source_quote": "中国央行宣布自5月15日起下调存款准备金率0.5个百分点,释放长期流动性约1万亿元"
+    }
+  ],
+  "cross_asset_summary": {
+    "rates": {
+      "10Y Treasury": {
+        "change_bp": -12,
+        "close": 4.28
+      }
+    },
+    "fx": {},
+    "equity": {}
+  }
+}
